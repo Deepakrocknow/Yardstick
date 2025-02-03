@@ -1,36 +1,3 @@
-// import TaskForm from './components/TaskForm';
-// import TaskList from './components/TaskList';
-// import { Suspense } from 'react';
-
-// export default function Home() {
-//   return (
-//     <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-//       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-//         <div className="lg:col-span-1">
-//           <div className="bg-white rounded-lg shadow p-6">
-//             <h2 className="text-lg font-semibold text-gray-900 mb-6">Create New Task</h2>
-//             <TaskForm />
-//           </div>
-//         </div>
-//         <div className="lg:col-span-2">
-//           <div className="bg-white rounded-lg shadow p-6">
-//             <h2 className="text-lg font-semibold text-gray-900 mb-6">Your Tasks</h2>
-//             <Suspense fallback={
-//               <div className="animate-pulse space-y-4">
-//                 {[...Array(3)].map((_, i) => (
-//                   <div key={i} className="h-24 bg-gray-100 rounded-lg"></div>
-//                 ))}
-//               </div>
-//             }>
-//               <TaskList />
-//             </Suspense>
-//           </div>
-//         </div>
-//       </div>
-//     </main>
-//   );
-// }
-
 import TaskForm from './components/TaskForm';
 import TaskList from './components/TaskList';
 import { Suspense } from 'react';
